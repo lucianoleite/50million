@@ -1,0 +1,22 @@
+/* Style definitions for our plots */
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.area {
+    fill: steelblue;
+    stroke: steelblue;
+    stroke-width: 0.5;
+    clip-path: url(#clip);
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 1.5;
+    clip-path: url(#clip);
+}
